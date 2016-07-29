@@ -1,34 +1,38 @@
-html
-  head
-    title A Pomodoro Clock FreeCodeCamp Practice
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.js', language='JavaScript')
-    link(href='https://fonts.googleapis.com/css?family=Berkshire+Swash', rel='stylesheet', type='text/css')
-  body
-    .container.bodyContainer
-      h1.web-title Tomato Timer
-      main(ng-app="TomatoTimer" ng-controller="TimerCtrl")
-        p#demo
-        svg#fillgauge2(ng-click="clickStart()" height="280")
-        #time
-        .timeSet
-          .row
-            .breakCtrl
-              p BREAK
-              button(ng-click='breakChange(-1)').minus -
-              span.time{{' ' + breakLength}}
-              button(ng-click='breakChange(1)').plus +
-            .workCtrl
-              p WORK
-              button(ng-click='workChange(-1)').minus -
-              span.time{{' ' + workLength}}
-              button(ng-click='workChange(1)').plus +
-      footer
-        .container
-          p.copyright.text-muted.small Copyright © Luna Web Design Studio 2015. All Rights Reserved
-
-            
-
-  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
-  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
-
-  
+<html>
+  <head>
+    <title>A Pomodoro Clock FreeCodeCamp Practice</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.js" language="JavaScript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="container bodyContainer">
+      <h1 class="web-title">Tomato Timer</h1>
+      <main ng-app="TomatoTimer" ng-controller="TimerCtrl">
+        <p id="demo"></p>
+        <svg id="fillgauge2" ng-click="clickStart()" height="280"></svg>
+        <div id="time"></div>
+        <div class="timeSet">
+          <div class="row">
+            <div class="breakCtrl">
+              <p>BREAK</p>
+              <button ng-click="breakChange(-1)" class="minus">-</button><span class="time">{{' ' + breakLength}}</span>
+              <button ng-click="breakChange(1)" class="plus">+</button>
+            </div>
+            <div class="workCtrl">
+              <p>WORK</p>
+              <button ng-click="workChange(-1)" class="minus">-</button><span class="time">{{' ' + workLength}}</span>
+              <button ng-click="workChange(1)" class="plus">+</button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <p class="copyright text-muted small">Copyright © Luna Web Design Studio 2015. All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>

@@ -1,4 +1,4 @@
-# A Pomodoro Clock
+# Build a Pomodoro Clock 
 
 User Story: I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed.
 

@@ -92,7 +92,7 @@ app.controller("TimerCtrl", function($scope, $interval){
 
       if (pause == false) {
         if (--timer < 0) {          
-          var sound = "http://www.oringz.com/oringz-uploads/74_bells-message.mp3";
+          var sound = "https://notificationsounds.com/christmas-ringtones/hand-bell-373/download/mp3";
           var audio = new Audio(sound);
           audio.play();
           

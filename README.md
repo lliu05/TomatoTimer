@@ -6,4 +6,4 @@ User Story: I can reset the clock for my next pomodoro.
 
 User Story: I can customize the length of each pomodoro.
 
-View Demo on Codepen: http://codepen.io/lliu05/full/vNKaPV/
+View Demo on Heroku: https://luna-tomato-timer.herokuapp.com/

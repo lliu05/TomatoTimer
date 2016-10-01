@@ -1,73 +1,79 @@
-.bodyContainer {
+body {
   background-color: #FFFFD6;
+}
+
+.bodyContainer {
   text-align: center;
   margin-bottom: 0;
+}
   
-  .web-title {
-    font-family: 'Berkshire Swash', cursive;
-    color: #FF4444;
-    font-weight: bold;
-    font-size: 70px;
-    text-align: center;
-    margin-top: 5%;
-  }
+.web-title {
+  font-family: 'Berkshire Swash', cursive;
+  color: #FF4444;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 5%;
+}
 
-  #fillgauge2 {
-    display: block;
-    margin: auto;
-    margin-top: 3%;
-    cursor: pointer;
-  }
+#fillgauge2 {
+  display: block;
+  margin: auto;
+  margin-top: 3%;
+  cursor: pointer;
+}
   
-  #demo {
-    color: #FF7777;
-    font-weight: bold;
-    font-size: 30px;
-    padding-top: 15px;
-  }
+#demo {
+  color: #FF7777;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 15px;
+}
   
-  button {
-    cursor: pointer;
-  }
+button {
+  cursor: pointer;
+}
   
-  .timeSet {
-    margin-top: 3%;
-    margin-bottom: 8%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .row {
-      width: auto;
-      display: flex;
-      .breakCtrl, .workCtrl {
-        color: #FF7777;
-        font-weight: bold;
-        font-size: 20px;
-        diplay: inline;
-        text-align: center;
-        padding-left: 75px;
-        padding-right: 75px;
-        .plus, .minus {
-          background-color: Transparent;
-          border: none;
-          cursor: pointer;
-          overflow: hidden;
-          outline: none;
-        }
-        .time{
-          color: #FF4444;
-        }
-      }
-    }
-  }
-  
-  footer {
-    text-align: left;
-  }
+.timeSet {
+  margin-top: 3%;
+  margin-bottom: 8%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  width: auto;
+  display: flex;
+}
+
+.breakCtrl, .workCtrl {
+  color: #FF7777;
+  font-weight: bold;
+  font-size: 20px;
+  diplay: inline;
+  text-align: center;
+  padding-left: 75px;
+  padding-right: 75px;
+} 
+.plus, .minus {
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.time{
+  color: #FF4444;
+}
+
+footer {
+  text-align: left;
 }
 
 
